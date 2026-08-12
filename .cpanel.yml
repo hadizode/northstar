@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home3/pzmvqbvj/public_html/
+    - /bin/cp ./assets $DEPLOYPATH
+    - /bin/cp ./backend $DEPLOYPATH
+    - /bin/cp ./dist $DEPLOYPATH
