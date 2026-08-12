@@ -4,18 +4,18 @@
  * EDIT the DB_* values and confirm ALLOWED_ORIGINS before going live.
  */
 
-error_reporting(E_ALL);
-ini_set('display_errors', '1');   // نمایش خطاها برای دیباگ
-ini_set('display_startup_errors', '1');
+// error_reporting(E_ALL);
+// ini_set('display_errors', '1');   // نمایش خطاها برای دیباگ
+// ini_set('display_startup_errors', '1');
 ini_set('log_errors', '1');
 
 // ---------------------------------------------------------------------------
 // Database credentials — EDIT for your hosting environment
 // ---------------------------------------------------------------------------
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'north');
-define('DB_USER', 'me');
-define('DB_PASS', 'goodyear');
+define('DB_NAME', 'pzmvqbvj_north');
+define('DB_USER', 'devme');
+define('DB_PASS', "U,G'LPK^6%VJCtu");
 define('DB_CHARSET', 'utf8mb4');
 
 // ---------------------------------------------------------------------------
